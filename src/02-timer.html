@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Countdown timer</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="../node_modules/notiflix/dist/notiflix-3.2.5.min.css" />
+	</head>
+	<body>
+		<p><a href="index.html">Go back</a></p>
+
+		<input type="text" id="datetime-picker" />
+		<button type="button" data-start>Start</button>
+
+		<div class="timer col">
+			<div class="timer-section">
+				<div class="days-block">
+					<span class="value days" data-days>00</span>
+				</div>
+				<span class="label uncorrectDays">Days</span>
+			</div>
+			<div class="timer-section">
+				<div class="days-block">
+					<span class="value hours" data-hours>00</span>
+				</div>
+				<span class="uncorrectHours">Hours</span>
+			</div>
+
+			<div class="timer-section">
+				<div class="days-block">
+					<span class="value minutes" data-minutes>00</span>
+				</div>
+				<span class="label uncorrectMinutes">Minutes</span>
+			</div>
+			<div class="timer-section">
+				<div class="days-block">
+					<span class="value seconds" data-seconds>00</span>
+				</div>
+				<span class="label uncorrectSeconds">Seconds</span>
+			</div>
+		</div>
+
+		<script src="js/02-timer.js"></script>
+	</body>
+</html>
