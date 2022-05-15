@@ -1,6 +1,7 @@
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import { Report } from 'notiflix/build/notiflix-report-aio';
+////////////////////////////////////////////////////////////////////////////////
 const refs = {
   input: document.querySelector('#datetime-picker'),
   button: document.querySelector('[data-start]'),
